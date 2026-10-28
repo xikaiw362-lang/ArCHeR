@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "archer"
+version = "3.2.0"
+description = "ArCHeR: scale-adaptive hybrid-gene extraction for rare-cell-aware single-cell clustering"
+readme = "README.md"
+license = {text = "GPL-3.0-only"}
+requires-python = ">=3.7"
+# Versions used for all reported runs are pinned in environment/; these are minimums.
+dependencies = [
+    "numpy>=1.21",
+    "pandas>=1.3",
+    "scipy>=1.7",
+    "scikit-learn>=1.0",
+    "anndata>=0.8",
+    "igraph>=0.10",
+]
+
+[project.optional-dependencies]
+fast = ["pynndescent>=0.5", "hnswlib"]
+
+[tool.setuptools]
+packages = ["archer"]
