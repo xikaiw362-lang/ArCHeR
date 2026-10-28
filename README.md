@@ -2,7 +2,9 @@
 
 **ArCHeR** (Adaptive and Robust Clustering via Hybrid-gene Extraction for Rare-cells) is an unsupervised scRNA-seq clustering method. It combines highly variable genes (HVGs) with high-importance genes (HIGs) learned from provisional unsupervised partitions, and builds a cell-specific adaptive shared-nearest-neighbour graph.
 
-> Status: pre-publication release v3.2.0. The repository URL and release DOI are still to be filled in.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23724937.svg)](https://doi.org/10.5281/zenodo.23724937)
+
+Release v3.2.0 (the version used in the manuscript) is archived on Zenodo: https://doi.org/10.5281/zenodo.23724937
 
 Licence: GNU General Public License v3.0 (GPL-3.0); see `NOTICE.md`. The adaptive-graph step follows aKNNO (GPL-3.0).
 
@@ -65,4 +67,8 @@ GPL-3.0. The full licence text is in `LICENSE`; see `NOTICE.md` for the copyrigh
 
 ## Citation
 
-To be added after publication.
+Until the article is published, please cite the software release:
+
+> ArCHeR v3.2.0. Zenodo (2026). https://doi.org/10.5281/zenodo.23724937
+
+The article reference will be added here after publication.
